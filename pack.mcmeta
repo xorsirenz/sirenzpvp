@@ -1,7 +1,19 @@
 {
     "pack": {
-        "pack_format": 15,
-        "supported_formats": {"min_inclusive":15, "max_inclusive": 99},
-        "description": "§lversion: 1.21.1 \nBy §r§5xorsirenz"
-    }
+        "pack_format": 42,
+		"supported_formats": [34, 46],
+        "description": "§lversion: 1.21.3 \nBy §r§5xorsirenz"
+    },
+	"overlays": {
+		"entries": [
+			{
+				"formats": {"min_inclusive": 42, "max_inclusive": 46},
+				"directory": "overlay_42"
+			},
+			{
+				"formats": {"min_inclusive": 46, "max_inclusive": 46},
+				"directory": "overlay_46"
+			}
+		]
+	}
 }
