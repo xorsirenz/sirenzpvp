@@ -2,7 +2,7 @@
     "pack": {
         "pack_format": 42,
 		"supported_formats": [34, 46],
-        "description": "§lversion: 1.21.3 \nBy §r§5xorsirenz"
+        "description": "§lversion: 1.21.4 \nBy §r§5xorsirenz"
     },
 	"overlays": {
 		"entries": [
