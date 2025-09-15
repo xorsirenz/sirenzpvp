@@ -1,6 +1,14 @@
 {
     "parent": "item/smaller_util",
     "textures": {
+        "particle": "item/transparent",
         "layer0": "item/totem_of_undying"
+    },
+    "display": {
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        }
     }
 }
